@@ -19,7 +19,7 @@ Responsible for generating vector embeddings for resolved tickets. These embeddi
 ### Clone the repository
 
 ```bash
-git clone
+git clone https://github.com/PratikDavidson/supozy-ai.git
 ```
 
 ### Backend
