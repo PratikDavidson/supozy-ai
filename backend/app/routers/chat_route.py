@@ -69,7 +69,7 @@ async def send_message(conversation_id: str, data: SendMessageInput = Body(...))
     conn.commit()
     message_id = cur.lastrowid
     assistant_message = await QueryAgent.process_query(data.text)
-    assistant_message = "Hello!"
+    # assistant_message = "Hello!"
     cur.execute(
         """
         INSERT INTO messages (conversation_id, sender, text)
